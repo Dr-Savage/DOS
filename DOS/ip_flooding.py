@@ -55,5 +55,5 @@ class flooding:
 				self.connection.close()
 				exit()
 
-attack = flooding("192.168.83.113",80)
+attack = flooding(host,port)
 attack.send_packet()
