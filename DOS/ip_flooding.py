@@ -1,7 +1,6 @@
 #!/usr/bin/python3.7
 """
 G O D F A T H E R
-
 """
 
 import socket
